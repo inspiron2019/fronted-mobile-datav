@@ -1,0 +1,23 @@
+/* 移动端适配: 750px 20等分 基准值37.5 */ 
+html {
+    font-size: 5vw;
+}
+
+
+#app {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; //防止移动端滚动卡顿
+}
+
+p {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.echarts-wrapper {
+    width: 100%;
+    .echarts {
+        width: 100%;
+        height: 400px;
+    }
+}
